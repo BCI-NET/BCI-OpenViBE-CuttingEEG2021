@@ -1,8 +1,8 @@
 # Brain-Computer Interface (BCI) using OpenViBE, an open-source software platform
 ---
-:computer: Hands-on tutorial organized for [PracticalMEEG conference, December 14 – 16, 2022](https://practicalmeeg2022.org/). Special session: [Toolboxes Bouquet](https://practicalmeeg2022.org/bouquet/)
+:computer: Hands-on tutorial organized during the [5th Symposium on cutting-edge methods for EEG research, October 4 – 7, 2021](https://cuttingeeg2021.org)
 
-:clock830: Wednesday, December 14th, 2:00pm – 6:00pm (CEST)
+:clock830: Wednesday, October 6, 8:30am – 11:30am (CEST)
 
 :busts_in_silhouette: Organizers:
 
@@ -12,15 +12,15 @@
 ---
 
 ## Audience/Prerequisites
-* EEG/MEG users, researchers curious about BCI
-* No particular requirement for following the demo. Some basic knowledge in EEG signal processing & machine learning can be helpful!
-* Participants interested in using OpenViBE can download the installer from [this page](http://openvibe.inria.fr/downloads/). Linux users need to follow the [build instructions](http://openvibe.inria.fr/build-instructions/)
+* Windows/Linux users curious about BCI !
+* Participants must install OpenViBE from [this page](http://openvibe.inria.fr/downloads/) **before** the workshop. Please install from the "stable version" links (v 3.1.0).
+* Linux users need to follow the [build instructions](http://openvibe.inria.fr/build-instructions/)
 
 ## Objectives
-* Get familiar with the main concepts of BCI
-* Discover the main features proposed by OpenViBE 
-* Manipulate the fundamental blocks of OpenViBE
-* Get a glimpse of more advanced capabilities using OpenViBE
+* Getting familiar with the main concepts of BCI
+* Knowing the main features proposed by OpenViBE 
+* Being able to run a (virtual) BCI experiment with OpenViBE
+* Manipulating the fundamental blocks of OpenViBE
 * Getting a hint of the main challenges in BCI research
 
 ---
@@ -35,26 +35,24 @@
 * How does OpenViBE work?
 * Q&A-1
 
-### Part 2, Motor Imagery protocol, OpenViBE fundamentals - 2h to 2h30
+### Part 2, BCI-CuttingEEG protocol and Q&A - 2h
 We will perform a simulation of motor imagery-based BCI experiment with a virtual subject. To this end, we will use OpenViBE to extract, preprocess and classify the EEG data.
 
 * Intro - Prerequisites before performing a MI-BCI experiment
   * Neurophysiological mechanisms
   * Motor imagery-based BCI in practice
-* Demo - setting-up the protocol in OpenViBE 
+* Workshop - BCI-CuttingEEG protocol set-up
   * Part 1 - Training data acquisition
   * Part 2 - Classifier training scenario
-  * Part 3 - Online feedback
-  * Optional - More advanced concepts
+  * Part 3 - Online feedback  
 * Q&A-2
 
-### Concluding remarks & Perspectives - 45'
-* Going further with OpenViBE
+### Concluding remarks & Perspectives - 30'
+* BONUS - OpenViBE
   * Developing & prototyping OpenViBE boxes
   * Forum, scripts & community 
   * Scenario tutorials
   * External scripting & interfacing using Python
-  * Using BCI pipelines easily with *HappyFeat*
 * BONUS - BCI research
   * Current challenges
   * Machine & User-centered approaches
@@ -89,7 +87,6 @@ Previous OpenViBE workshops materials:
 * [6th International Brain-Computer Interface Conference](http://openvibe.inria.fr/openvibe-workshop-2014-contents/)
 * [2016 International BCI meeting](http://openvibe.inria.fr/the-2nd-international-openvibe-workshop-2016-contents/)
 * [IEEE International Conference on Systems, Man and Cybernetics (IEEE SMC 2018)](http://openvibe.inria.fr/openvibe-workshop-2018/)
-* [CuttingEEG'21 - 5th Symposium on cutting-edge methods for EEG research](https://cuttingeeg2021.org) - [OpenViBE Workshop](https://github.com/Inria-NERV/BCI-OpenViBE-PracticalMEEG2022/)
 
 
 To learn more about BCI research & events:
